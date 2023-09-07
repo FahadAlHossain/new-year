@@ -1,0 +1,57 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.banner {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    padding: 250px 1000px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+.banner-title {
+    font-size: 55px;
+    margin: 0;
+    padding-right: 100px;
+}
+
+.banner-discription {
+    color: #444343;
+    padding-right: 100px;
+}
+
+.btn-primary {
+    background-color: #F15B22;
+    padding: 20px 30px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.failure-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+
+}
+
+.failure-container{
+    padding-left: 200px;
+}
+.failure {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failuer-discription {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
