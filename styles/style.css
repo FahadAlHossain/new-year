@@ -28,12 +28,13 @@ body {
     font-weight: bold;
     color: white;
     border: none;
+    font-size: 20px;
     border-radius: 5px;
     margin-right: 100px;
     margin-top: 20px;
 }
 
-.failure-section{
+.failure-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,9 +42,10 @@ body {
 
 }
 
-.failure-container{
+.failure-container {
     padding-left: 200px;
 }
+
 .failure {
     color: #151414;
     font-size: 40px;
@@ -54,4 +56,67 @@ body {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
+}
+
+
+.plan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 80px;
+}
+
+.plan-img {
+    text-align: center;
+}
+
+.plan-details {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-des {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.watch{
+    background-image: url('../images/gradient2.png'),url('../images/watch.png');
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin: 100px 200px;
+    border-radius: 5px;
+}
+
+.watch-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-left: 80px;
+    margin: 0;
+}
+
+.btn-call{
+    background-color: #FFF;
+    padding: 20px 30px;
+    font-weight: bold;
+    color: #F15B22;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 80px;
 }
